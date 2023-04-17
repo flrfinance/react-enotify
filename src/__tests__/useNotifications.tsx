@@ -1,7 +1,6 @@
 import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Notifications from "../components/Notifications";
 import {
   NotificationsProvider,
   useNotifications,
@@ -97,7 +96,7 @@ describe("useNotifications", () => {
 
   test("adds a notification", async () => {
     const AddNotification: React.FC = () => {
-      const { addNotification, notifications } = useNotifications();
+      const { addNotification } = useNotifications();
       const newNotification = {
         id: "2",
         title: "New Notification",
@@ -130,8 +129,7 @@ describe("useNotifications", () => {
   });
   test("removes a notification", async () => {
     const RemoveComponent: React.FC = () => {
-      const { addNotification, removeNotification, notifications } =
-        useNotifications();
+      const { addNotification, removeNotification } = useNotifications();
       const newNotification = {
         id: "2",
         title: "New Notification",
