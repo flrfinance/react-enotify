@@ -16,11 +16,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Tests
-        run: npm run test
-
-      - name: Generate Coverage Report
-        run: npm run coverage
-
-      - name: Check Coverage Thresholds
-        run: npm run check-coverage
+      - name: Enforce coverage
+        uses: VeryGoodOpenSource/very_good_coverage@v1
+        with:
+          path: "./coverage/lcov.info"
+          min_coverage: 95
