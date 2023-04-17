@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/flrfinance/react-enotify/compare/v0.0.25...v0.0.26) (2023-04-17)
+
+
+### Bug Fixes
+
+* removing tests from dist making sure all the cis will pass ([2edb851](https://github.com/flrfinance/react-enotify/commit/2edb85160d95b2a5ba5d14657f74eed1dcc88a26))
+
 ### [0.0.25](https://github.com/flrfinance/react-enotify/compare/v0.0.24...v0.0.25) (2023-04-17)
 
 
