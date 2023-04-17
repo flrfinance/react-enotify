@@ -24,32 +24,32 @@ const Notification: React.FC<NotificationProps> = ({
       const timer = setTimeout(() => onDismiss(id), dismissAfter);
       return () => clearTimeout(timer);
     } else {
-      return;
+      return undefined;
     }
-  }, [dismissAfter]);
+  }, [dismissAfter, dismissible, id, onDismiss]);
   return (
     <div className={`r-enotification ${status}`}>
-      <div className='r-enotifications-loading-wrapper'>
+      <div className="r-enotifications-loading-wrapper">
         {status === "loading" && (
-          <span className='r-enotification-loader'></span>
+          <span className="r-enotification-loader"></span>
         )}
         {status === "success" && <Checkmark />}
         {status === "info" && <Info />}
         {status === "warning" && <Warning />}
         {status === "error" && <Error />}
       </div>
-      <div className='r-enotification-content'>
-        <p className='r-enotification-title'>
+      <div className="r-enotification-content">
+        <p className="r-enotification-title">
           <strong>{title}</strong>
         </p>
-        <p className='r-enotification-description'>
+        <p className="r-enotification-description">
           <small>{description}</small>
         </p>
       </div>
-      <div className='r-enotification-actions'>
+      <div className="r-enotification-actions">
         {primaryAction && (
           <button
-            className='r-enotification-action primary'
+            className="r-enotification-action primary"
             onClick={primaryAction.onClick}
           >
             {primaryAction.label}
@@ -57,7 +57,7 @@ const Notification: React.FC<NotificationProps> = ({
         )}
         {secondaryAction && (
           <button
-            className='r-enotification-action secondary'
+            className="r-enotification-action secondary"
             onClick={secondaryAction.onClick}
           >
             {secondaryAction.label}

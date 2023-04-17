@@ -45,7 +45,7 @@ describe("Notifications", () => {
   test("renders a notification", async () => {
     render(
       <NotificationsProvider>
-        <TestComponent status='info' />
+        <TestComponent status="info" />
       </NotificationsProvider>
     );
 
@@ -63,7 +63,7 @@ describe("Notifications", () => {
   test("renders a success notification", async () => {
     render(
       <NotificationsProvider>
-        <TestComponent status='success' />
+        <TestComponent status="success" />
       </NotificationsProvider>
     );
 

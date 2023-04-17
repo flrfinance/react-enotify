@@ -19,12 +19,12 @@ const Notifications: React.FC = () => {
   });
 
   return (
-    <div className='r-enotification-container'>
+    <div className="r-enotification-container">
       {transitions((props, item) => (
         <animated.div
           style={props}
           key={item.id}
-          className='r-enotification-cluster'
+          className="r-enotification-cluster"
         >
           <Notification notification={item} onDismiss={removeNotification} />
         </animated.div>
