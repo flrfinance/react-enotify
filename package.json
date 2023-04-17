@@ -1,14 +1,13 @@
 {
   "name": "@flrfinance/react-enotify",
-  "version": "0.0.21",
+  "version": "0.0.20",
   "description": "React-Enotify is a lightweight, customizable notification library for React applications. It provides an easy-to-use hook and context for managing notifications, along with smooth animations powered by React Spring. With React-Enotify, you can quickly integrate and manage notification pop-ups in your application, enhancing user experience and responsiveness.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
   "scripts": {
     "test": "jest --coverage",
-    "start": "webpack serve --mode development",
-    "build": "yarn build:esm && yarn build",
+    "build": "npm run build:css && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
