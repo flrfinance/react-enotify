@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.4](https://github.com/flrfinance/react-enotify/compare/v0.0.3...v0.0.4) (2023-04-17)
 
-
 ### Bug Fixes
 
-* typescript proper build ([319c345](https://github.com/flrfinance/react-enotify/commit/319c34506a8954db86eaeb4e8b6def6d433de4fc))
+- typescript proper build ([319c345](https://github.com/flrfinance/react-enotify/commit/319c34506a8954db86eaeb4e8b6def6d433de4fc))
 
 ### [0.0.3](https://github.com/flrfinance/react-enotify/compare/v0.0.2...v0.0.3) (2023-04-17)
 
-
 ### Bug Fixes
 
-* several more type fixes ([43b1231](https://github.com/flrfinance/react-enotify/commit/43b123124eb7373df73f742660da74b0717828a8))
+- several more type fixes ([43b1231](https://github.com/flrfinance/react-enotify/commit/43b123124eb7373df73f742660da74b0717828a8))
 
 ### [0.0.2](https://github.com/flrfinance/react-enotify/compare/v0.0.1...v0.0.2) (2023-04-17)
 
