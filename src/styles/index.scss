@@ -1,0 +1,121 @@
+.r-enotification-container {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 1000000;
+  overflow: hidden;
+}
+
+.r-enotification {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  backdrop-filter: blur(5px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  p {
+    color: white;
+    small {
+      color: white;
+    }
+  }
+  &-title {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding: 16px;
+  }
+
+  &-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+
+  &-action {
+    flex: auto;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    &:first-child {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+.r-enotification-cluster {
+  position: relative;
+}
+.r-enotifications-loading-wrapper {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.r-enotification-loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 2px solid;
+  border-color: #fff #fff transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+
+  &::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid;
+    border-color: transparent rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.5);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: rotationBack 0.5s linear infinite;
+    transform-origin: center center;
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
