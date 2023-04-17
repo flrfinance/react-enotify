@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.28](https://github.com/flrfinance/react-enotify/compare/v0.0.27...v0.0.28) (2023-04-17)
+
+
+### Bug Fixes
+
+* adding tslib as main dependancy ([6d410aa](https://github.com/flrfinance/react-enotify/commit/6d410aa4ea17a16211c34e9e239c7729f62b2e10))
+
 ### [0.0.27](https://github.com/flrfinance/react-enotify/compare/v0.0.26...v0.0.27) (2023-04-17)
 
 
