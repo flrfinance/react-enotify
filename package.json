@@ -1,13 +1,14 @@
 {
   "name": "react-enotify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React-Enotify is a lightweight, customizable notification library for React applications. It provides an easy-to-use hook and context for managing notifications, along with smooth animations powered by React Spring. With React-Enotify, you can quickly integrate and manage notification pop-ups in your application, enhancing user experience and responsiveness.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --coverage",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "release": "standard-version"
   },
   "keywords": [
     "react",
@@ -55,6 +56,7 @@
     "mini-css-extract-plugin": "^2.5.0",
     "sass": "^1.50.0",
     "sass-loader": "^12.3.0",
+    "standard-version": "^9.5.0",
     "style-loader": "^3.3.1",
     "ts-jest": "^29.1.0",
     "ts-loader": "^9.2.6",
