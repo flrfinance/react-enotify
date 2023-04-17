@@ -13,7 +13,7 @@
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "prepare": "npm run build",
-    "build:css": "mkdir dist && mkdir dist/styles && cp src/styles/index.scss dist/styles/",
+    "build:css": "mkdir dist/styles && cp src/styles/index.scss dist/styles/",
     "release": "standard-version"
   },
   "keywords": [
