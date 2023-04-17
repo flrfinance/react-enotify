@@ -5,4 +5,5 @@ module.exports = {
     "\\.(css|scss)$": "identity-obj-proxy",
   },
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+  coveragePathIgnorePatterns: ["/node_modules/", "/dist/"],
 };
