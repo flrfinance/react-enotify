@@ -2,42 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.0.12](https://github.com/flrfinance/react-enotify/compare/v0.0.11...v0.0.12) (2023-04-17)
-
 ### [0.0.11](https://github.com/flrfinance/react-enotify/compare/v0.0.10...v0.0.11) (2023-04-17)
-
 
 ### Bug Fixes
 
-* fixing css copy issues ([d512278](https://github.com/flrfinance/react-enotify/commit/d51227821cf10b511c85e8009d7db53954d6159e))
+- fixing css copy issues ([d512278](https://github.com/flrfinance/react-enotify/commit/d51227821cf10b511c85e8009d7db53954d6159e))
 
 ### [0.0.10](https://github.com/flrfinance/react-enotify/compare/v0.0.9...v0.0.10) (2023-04-17)
 
-
 ### Bug Fixes
 
-* styles on build no unnecessary files or modules ([2ccb956](https://github.com/flrfinance/react-enotify/commit/2ccb9562ab6b2fe0ff94d790bc79ccfc425898e7))
+- styles on build no unnecessary files or modules ([2ccb956](https://github.com/flrfinance/react-enotify/commit/2ccb9562ab6b2fe0ff94d790bc79ccfc425898e7))
 
 ### [0.0.9](https://github.com/flrfinance/react-enotify/compare/v0.0.8...v0.0.9) (2023-04-17)
 
-
 ### Bug Fixes
 
-* build css positional ([3567670](https://github.com/flrfinance/react-enotify/commit/356767008058c1901d7d7053b86c754fbc12a102))
+- build css positional ([3567670](https://github.com/flrfinance/react-enotify/commit/356767008058c1901d7d7053b86c754fbc12a102))
 
 ### [0.0.8](https://github.com/flrfinance/react-enotify/compare/v0.0.7...v0.0.8) (2023-04-17)
 
-
 ### Bug Fixes
 
-* build css fix ([233e074](https://github.com/flrfinance/react-enotify/commit/233e07423d5265d0042f60e9ccd300de1e2dafce))
+- build css fix ([233e074](https://github.com/flrfinance/react-enotify/commit/233e07423d5265d0042f60e9ccd300de1e2dafce))
 
 ### [0.0.7](https://github.com/flrfinance/react-enotify/compare/v0.0.6...v0.0.7) (2023-04-17)
 
-
 ### Bug Fixes
 
-* build fix ([3bb0760](https://github.com/flrfinance/react-enotify/commit/3bb07604711726831ac639f80d39e0b613b758fe))
+- build fix ([3bb0760](https://github.com/flrfinance/react-enotify/commit/3bb07604711726831ac639f80d39e0b613b758fe))
 
 ### [0.0.6](https://github.com/flrfinance/react-enotify/compare/v0.0.5...v0.0.6) (2023-04-17)
 
