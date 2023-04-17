@@ -23,6 +23,8 @@ const Notification: React.FC<NotificationProps> = ({
     if (dismissible && dismissAfter && dismissAfter > 0) {
       const timer = setTimeout(() => onDismiss(id), dismissAfter);
       return () => clearTimeout(timer);
+    } else {
+      return;
     }
   }, [dismissAfter]);
   return (
