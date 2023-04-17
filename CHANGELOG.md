@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/flrfinance/react-enotify/compare/v0.0.9...v0.0.10) (2023-04-17)
+
+
+### Bug Fixes
+
+* styles on build no unnecessary files or modules ([2ccb956](https://github.com/flrfinance/react-enotify/commit/2ccb9562ab6b2fe0ff94d790bc79ccfc425898e7))
+
 ### [0.0.9](https://github.com/flrfinance/react-enotify/compare/v0.0.8...v0.0.9) (2023-04-17)
 
 
