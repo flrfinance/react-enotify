@@ -1,4 +1,4 @@
-import "../styles/index.scss";
+import "../styles/index.css";
 
 import React, { createContext, useContext, useState } from "react";
 import Notifications from "../components/Notifications";
