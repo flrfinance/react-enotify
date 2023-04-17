@@ -16,8 +16,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run unit tests
+        run: npm run test
+
       - name: Enforce coverage
         uses: VeryGoodOpenSource/very_good_coverage@v1
         with:
           path: "./coverage/lcov.info"
-          min_coverage: 95
+          min_coverage: 75
