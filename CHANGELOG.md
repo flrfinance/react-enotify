@@ -2,16 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.0.7](https://github.com/flrfinance/react-enotify/compare/v0.0.6...v0.0.7) (2023-04-17)
-
 ### [0.0.6](https://github.com/flrfinance/react-enotify/compare/v0.0.5...v0.0.6) (2023-04-17)
 
 ### [0.0.5](https://github.com/flrfinance/react-enotify/compare/v0.0.4...v0.0.5) (2023-04-17)
 
-
 ### Features
 
-* from webpack to rsc ([0de16b2](https://github.com/flrfinance/react-enotify/commit/0de16b281b2c0cf244e30a4310b4d0eb1504887e))
+- from webpack to rsc ([0de16b2](https://github.com/flrfinance/react-enotify/commit/0de16b281b2c0cf244e30a4310b4d0eb1504887e))
 
 ### [0.0.4](https://github.com/flrfinance/react-enotify/compare/v0.0.3...v0.0.4) (2023-04-17)
 
