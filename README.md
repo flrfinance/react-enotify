@@ -14,13 +14,13 @@ React-Enotify is a lightweight, customizable notification library for React appl
 To install `react-enotify`, you can use npm:
 
 ```bash
-npm install --save react-enotify
+npm install --save @flrfinance/react-enotify
 ```
 
 Or yarn:
 
 ```bash
-yarn add react-enotify
+yarn add @flrfinance/react-enotify
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ To use the Notifications module, follow these steps:
 1. Wrap your application with the `NotificationsProvider` component:
 
 ```jsx
-import { NotificationsProvider } from "react-enotify";
+import { NotificationsProvider } from "@flrfinance/react-enotify";
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
 2. Use the useNotifications hook in the component where you want to add, remove or manage notifications:
 
 ```jsx
-import { useNotifications } from "react-enotify";
+import { useNotifications } from "@flrfinance/react-enotify";
 
 function MyComponent() {
   const { addNotification, removeNotification } = useNotifications();

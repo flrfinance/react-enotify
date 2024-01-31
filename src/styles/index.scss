@@ -4,6 +4,9 @@
   right: 24px;
   z-index: 1000000;
   overflow: hidden;
+  min-height: min-content;
+  height: min-content;
+  max-height: max-content;
 }
 
 .r-enotification {
