@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.29](https://github.com/flrfinance/react-enotify/compare/v0.0.28...v0.0.29) (2024-01-31)
+
+
+### Bug Fixes
+
+* readme and css ([c14899f](https://github.com/flrfinance/react-enotify/commit/c14899ff1f53f4fa956f5209376202396c4b264d))
+
 ### [0.0.28](https://github.com/flrfinance/react-enotify/compare/v0.0.27...v0.0.28) (2023-04-17)
 
 
