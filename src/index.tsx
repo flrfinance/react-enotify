@@ -1,6 +1,7 @@
+import Notification from "./components/Notification/index";
 import {
   useNotifications,
   NotificationsProvider,
 } from "./context/useNotifications";
-import Notification from "./components/Notification";
-export { useNotifications, NotificationsProvider, Notification };
+
+export { Notification, useNotifications, NotificationsProvider };

@@ -4,6 +4,7 @@
 # Distribution files
 /build
 /dist
+/package
 
 # Environment variables
 .env.local
