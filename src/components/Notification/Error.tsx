@@ -1,5 +1,3 @@
-import React from "react";
-
 const Error = () => {
   return (
     <svg viewBox="0 0 16 16" fill="currentColor" width={20} height={20}>

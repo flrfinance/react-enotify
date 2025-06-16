@@ -1,10 +1,26 @@
 {
   "name": "@flrfinance/react-enotify",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "React-Enotify is a lightweight, customizable notification library for React applications. It provides an easy-to-use hook and context for managing notifications, along with smooth animations powered by React Spring. With React-Enotify, you can quickly integrate and manage notification pop-ups in your application, enhancing user experience and responsiveness.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
+  "style": "./dist/styles/index.scss",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    },
+    "./styles": {
+      "default": "./dist/esm/styles/index.scss"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "test": "jest --coverage",
     "build": "npm run build:css && npm run build:esm && npm run build:cjs",
@@ -12,8 +28,8 @@
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
-    "prepare": "npm run build:esm && npm run build:cjs",
-    "build:css": "mkdir dist/styles && cp src/styles/index.scss dist/styles/",
+    "prepare": "npm run build",
+    "build:css": "mkdir -p dist/esm/styles && cp src/styles/index.scss dist/esm/styles/",
     "release": "standard-version"
   },
   "keywords": [
@@ -42,9 +58,9 @@
   },
   "homepage": "https://github.com/flrfinance/react-enotify#readme",
   "peerDependencies": {
-    "react": "^18.2.0",
-    "tslib": "^2.5.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0",
+    "tslib": "^2.8.1"
   },
   "dependencies": {
     "react-spring": "^9.7.1"
@@ -54,8 +70,8 @@
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.5.0",
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.11",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "eslint": "^8.38.0",
@@ -71,10 +87,5 @@
     "ts-jest": "^29.1.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.6.2"
-  },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ]
+  }
 }
